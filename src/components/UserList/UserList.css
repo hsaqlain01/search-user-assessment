@@ -1,0 +1,69 @@
+/* UserList component styles */
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-details {
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Avatar styles */
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+/* Placeholder avatar styles */
+.user-avatar-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ddd;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+  text-transform: uppercase; /* Ensures initials are uppercase */
+}
